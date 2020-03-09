@@ -17,7 +17,7 @@ class Solution:
         if m > n:
             listA, listB , maxindex, m, n = nums2, nums1, n, m, n
         else:
-            listA, listB , maxindex, m, n = nums1, nums2, m, n, m
+            listA, listB , maxindex, m, n = nums1, nums2, m, n, mxxxxxxxx
 
         while minindex <= maxindex:
             i = (minindex + maxindex) // 2
